@@ -1,9 +1,100 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="26.2.15">
   <diagram name="第 1 页" id="UKEPWVbd6YNbCdCokyux">
-    <mxGraphModel>
+    <mxGraphModel dx="1205" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="q-Y--NoxPIXve0P-YY0b-1" value="&lt;font face=&quot;Times New Roman&quot;&gt;用户&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="120" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q-Y--NoxPIXve0P-YY0b-6" value="&lt;font face=&quot;Times New Roman&quot;&gt;用户登录&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="135" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q-Y--NoxPIXve0P-YY0b-7" value="&lt;font face=&quot;Times New Roman&quot;&gt;前端页面&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="135" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q-Y--NoxPIXve0P-YY0b-8" value="&lt;font face=&quot;Times New Roman&quot;&gt;Router(Flask)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="135" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q-Y--NoxPIXve0P-YY0b-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="q-Y--NoxPIXve0P-YY0b-9" target="q-Y--NoxPIXve0P-YY0b-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q-Y--NoxPIXve0P-YY0b-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="87.5" y="200" width="15" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q-Y--NoxPIXve0P-YY0b-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="200" width="15" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q-Y--NoxPIXve0P-YY0b-12" value="&lt;font face=&quot;Times New Roman&quot;&gt;1.输入账号密码&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="210" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q-Y--NoxPIXve0P-YY0b-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="q-Y--NoxPIXve0P-YY0b-13" target="q-Y--NoxPIXve0P-YY0b-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q-Y--NoxPIXve0P-YY0b-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="293" width="15" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q-Y--NoxPIXve0P-YY0b-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="372.5" y="334.5" as="sourcePoint" />
+            <mxPoint x="562.5" y="331.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="373" y="331.5" />
+              <mxPoint x="553" y="331.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q-Y--NoxPIXve0P-YY0b-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="367.5" y="293" width="15" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q-Y--NoxPIXve0P-YY0b-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="367.5" y="403" width="15" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q-Y--NoxPIXve0P-YY0b-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="562.5" y="280" width="15" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q-Y--NoxPIXve0P-YY0b-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="q-Y--NoxPIXve0P-YY0b-17" target="q-Y--NoxPIXve0P-YY0b-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="443" />
+              <mxPoint x="560" y="443" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q-Y--NoxPIXve0P-YY0b-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="562.5" y="403" width="15" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q-Y--NoxPIXve0P-YY0b-19" value="&lt;font face=&quot;Times New Roman&quot;&gt;3.提交信息&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="424" y="293" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q-Y--NoxPIXve0P-YY0b-21" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="577.5" y="420" as="sourcePoint" />
+            <mxPoint x="660" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q-Y--NoxPIXve0P-YY0b-23" value="&lt;font face=&quot;Times New Roman&quot;&gt;4.调用函数绘制图像&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="570" y="380" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q-Y--NoxPIXve0P-YY0b-25" value="&lt;font face=&quot;Times New Roman&quot;&gt;5.返回预测图像&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="414" y="410" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q-Y--NoxPIXve0P-YY0b-29" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.935;entryY=0.593;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="420" as="sourcePoint" />
+            <mxPoint x="577.495" y="450.44000000000005" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q-Y--NoxPIXve0P-YY0b-31" value="&lt;font face=&quot;Times New Roman&quot;&gt;2.输入模型相关数据&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="220" y="298" width="130" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
