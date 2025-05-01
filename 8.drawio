@@ -1,9 +1,177 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="26.2.15">
   <diagram name="第 1 页" id="EVB3Gj7AwUVOfa2Ds0am">
-    <mxGraphModel>
+    <mxGraphModel dx="1418" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="-P0w8qjXnMay7rfc2WE0-1" value="&lt;font face=&quot;Times New Roman&quot;&gt;用户&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="80" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-P0w8qjXnMay7rfc2WE0-6" value="&lt;font face=&quot;Times New Roman&quot;&gt;用户登录&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="90" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-P0w8qjXnMay7rfc2WE0-7" value="&lt;font face=&quot;Times New Roman&quot;&gt;前端页面&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="90" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-P0w8qjXnMay7rfc2WE0-8" value="&lt;font face=&quot;Times New Roman&quot;&gt;Router(Flask)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="90" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-P0w8qjXnMay7rfc2WE0-9" value="&lt;font face=&quot;Times New Roman&quot;&gt;数据库&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="90" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-P0w8qjXnMay7rfc2WE0-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-P0w8qjXnMay7rfc2WE0-10" target="-P0w8qjXnMay7rfc2WE0-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-P0w8qjXnMay7rfc2WE0-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="190" width="20" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-P0w8qjXnMay7rfc2WE0-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="245" y="190" width="20" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-P0w8qjXnMay7rfc2WE0-13" value="&lt;font face=&quot;Times New Roman&quot;&gt;1.输入账号密码&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="208" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-P0w8qjXnMay7rfc2WE0-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="245" y="330" width="20" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-P0w8qjXnMay7rfc2WE0-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-P0w8qjXnMay7rfc2WE0-14" target="-P0w8qjXnMay7rfc2WE0-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-P0w8qjXnMay7rfc2WE0-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-P0w8qjXnMay7rfc2WE0-16" target="-P0w8qjXnMay7rfc2WE0-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-P0w8qjXnMay7rfc2WE0-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="575" y="180" width="20" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-P0w8qjXnMay7rfc2WE0-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="-P0w8qjXnMay7rfc2WE0-17" target="-P0w8qjXnMay7rfc2WE0-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-P0w8qjXnMay7rfc2WE0-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="745" y="180" width="20" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-P0w8qjXnMay7rfc2WE0-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="575" y="340" width="20" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-P0w8qjXnMay7rfc2WE0-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="745" y="340" width="20" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-P0w8qjXnMay7rfc2WE0-20" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="575" y="470" width="20" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-P0w8qjXnMay7rfc2WE0-21" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="745" y="470" width="20" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-P0w8qjXnMay7rfc2WE0-23" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="404" y="190" width="20" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="-P0w8qjXnMay7rfc2WE0-25" value="&lt;font face=&quot;Times New Roman&quot;&gt;2.查看数据主页&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="338" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-P0w8qjXnMay7rfc2WE0-27" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;3.获取每个赛季参加场数&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: start;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;与平均得分分布情况&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="600" y="180" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-P0w8qjXnMay7rfc2WE0-30" value="&lt;font face=&quot;Times New Roman&quot;&gt;4.返回数据&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="620" y="258" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-P0w8qjXnMay7rfc2WE0-31" value="&lt;font face=&quot;Times New Roman&quot;&gt;7.返回数据&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="410" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-P0w8qjXnMay7rfc2WE0-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.006;entryY=0.703;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.045;exitY=0.699;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="-P0w8qjXnMay7rfc2WE0-19" target="-P0w8qjXnMay7rfc2WE0-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="410" as="sourcePoint" />
+            <mxPoint x="600" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-P0w8qjXnMay7rfc2WE0-33" value="&lt;font face=&quot;Times New Roman&quot;&gt;10.返回数据&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="530" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-P0w8qjXnMay7rfc2WE0-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.006;entryY=0.703;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.045;exitY=0.699;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="744" y="530" as="sourcePoint" />
+            <mxPoint x="595" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-P0w8qjXnMay7rfc2WE0-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="595" y="380" as="sourcePoint" />
+            <mxPoint x="745" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-P0w8qjXnMay7rfc2WE0-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="595" y="510" as="sourcePoint" />
+            <mxPoint x="745" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-P0w8qjXnMay7rfc2WE0-37" value="&lt;font face=&quot;Times New Roman&quot;&gt;6.获取每个赛季场均篮板&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;、助攻、抢断和&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;盖帽的得分分布情况&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="595" y="323" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-P0w8qjXnMay7rfc2WE0-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.2;entryY=0.449;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-P0w8qjXnMay7rfc2WE0-14" target="-P0w8qjXnMay7rfc2WE0-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="265" y="401" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-P0w8qjXnMay7rfc2WE0-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.933;entryY=0.101;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-P0w8qjXnMay7rfc2WE0-16" target="-P0w8qjXnMay7rfc2WE0-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="575" y="237" />
+              <mxPoint x="500" y="237" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-P0w8qjXnMay7rfc2WE0-41" value="&lt;font face=&quot;Times New Roman&quot;&gt;5.显示相关数据&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="190" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-P0w8qjXnMay7rfc2WE0-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.933;entryY=0.101;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="576" y="400" as="sourcePoint" />
+            <mxPoint x="424" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-P0w8qjXnMay7rfc2WE0-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.933;entryY=0.101;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="576" y="530" as="sourcePoint" />
+            <mxPoint x="424" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-P0w8qjXnMay7rfc2WE0-46" value="&lt;font face=&quot;Times New Roman&quot;&gt;8.显示相关数据&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="355" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-P0w8qjXnMay7rfc2WE0-48" value="&lt;font face=&quot;Times New Roman&quot;&gt;9.获取每个赛季&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;平均上场时间、效率&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;分布情况&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="610" y="450" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-P0w8qjXnMay7rfc2WE0-49" value="&lt;font face=&quot;Times New Roman&quot;&gt;11.显示相关数据&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="445" y="490" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-P0w8qjXnMay7rfc2WE0-50" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="575" y="600" width="20" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-P0w8qjXnMay7rfc2WE0-51" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="745" y="610" width="20" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-P0w8qjXnMay7rfc2WE0-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.933;entryY=0.101;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="576" y="630" as="sourcePoint" />
+            <mxPoint x="424" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-P0w8qjXnMay7rfc2WE0-53" value="&lt;font face=&quot;Times New Roman&quot;&gt;14.显示相关数据&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="590" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-P0w8qjXnMay7rfc2WE0-55" value="&lt;font face=&quot;Times New Roman&quot;&gt;12.获取每个赛季&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;三分、发球、进攻、防守&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;分布情况&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="595" y="590" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-P0w8qjXnMay7rfc2WE0-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.033;entryY=0.394;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-P0w8qjXnMay7rfc2WE0-50" target="-P0w8qjXnMay7rfc2WE0-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-P0w8qjXnMay7rfc2WE0-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1.102;entryY=0.852;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-P0w8qjXnMay7rfc2WE0-51" target="-P0w8qjXnMay7rfc2WE0-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-P0w8qjXnMay7rfc2WE0-60" value="&lt;font face=&quot;Times New Roman&quot;&gt;13.返回数据&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="700" width="90" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
